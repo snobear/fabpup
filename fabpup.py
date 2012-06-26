@@ -1,5 +1,5 @@
-#
-# Fabric Interface to Puppet REST API
+# fabpup: Fabric Interface to Puppet REST API
+# Author: Jason Ashby
 #
 import requests
 import ast
