@@ -9,6 +9,7 @@ env.hosts lists with a list of hosts from Puppet based on a dictionary of facts 
 Usage:
 ------
 
+```python
 import fabpup
 
 # settings - see fabpup.py for available settings
@@ -21,6 +22,7 @@ myfacts = {'facts.operatingsystem':'CentOS',
 
 # return a list of hosts for Fabric
 env.hosts = get_hosts_by_facts(myfacts)
+```
 
 Notes:
 ------
