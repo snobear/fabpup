@@ -27,7 +27,10 @@ env.hosts = get_hosts_by_facts(myfacts)
 Dependencies
 ------------
 
-You'll need the "Requests: HTTP for Humans" module:  http://docs.python-requests.org/en/latest/index.html
+- Python 2.6  (has not been tested on anything but 2.6).
+- "Requests: HTTP for Humans" module:  http://docs.python-requests.org/en/latest/index.html
+
+
 
 Notes:
 ------
